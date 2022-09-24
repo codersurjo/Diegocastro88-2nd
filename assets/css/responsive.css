@@ -3,3 +3,302 @@
         min-width:1320px;
     }
 }
+
+@media (max-width:1199px){
+    .logo a {
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .logo a article {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .banner_text h1 {
+        font-size: 46px;
+        line-height: 53px;
+    }
+    .section_title h1 {
+        font-size: 42px;
+    }
+    .single_b h3 {
+        font-size: 27px;
+    }
+    .single_b h1 {
+        font-size: 39px;
+    }
+    .section_title p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:991px){
+    .menu ul li a {
+        font-size: 14px;
+        padding: 0 12px;
+    }
+    .menu_button a {
+        width: 164px;
+        height: 28px;
+        font-size: 14px;
+        line-height: 14px; 
+    }
+    .banner_text ul li {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 33%;
+                flex: 0 0 33%;
+        margin: 10px 0;
+    }
+    .banner_text ul {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 20px 20px;
+        height: auto;
+    }
+    .converter_right {
+        margin-top: 27px;
+        width: 100%;
+    }
+    #show_con {
+        width: 100%;
+        height: auto;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        text-align: center;
+        position: relative;
+        right: -0;
+        top: 0;
+        display: none;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:767px){
+    .hero_section_area {
+        padding-top: 136px;
+    }
+    .banner_text h1 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .banner_text ul{
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .banner_text ul li {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 48%;
+                flex: 0 0 48%;
+        margin: 10px 0;
+    }
+    .banner_text {
+        text-align: left;
+    }
+    .converter_form {
+        padding: 21px;
+    }
+    .input {
+        height: 44px;
+    }
+    .input p {
+        font-size: 15px;
+        padding: 8px;
+        max-width: 50%;
+        width: 100%;
+    }
+    .input input {
+        font-size: 15px;
+    }
+    .single_h_form label {
+        font-size: 15px;
+
+    }
+    .text p, .section_title p {
+        font-size: 17px;
+    }
+    .section_title h1 {
+        font-size: 35px;
+    }
+    .section_title {
+        margin-bottom: 49px;
+    }
+    .build_area {
+        background: #000;
+        padding-top: 215px;
+        padding-bottom: 55px;
+    }
+    .single_b {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 31%;
+                flex: 0 0 31%;
+        max-width: 31%;
+        margin: 1%;
+    }
+    .build_public_all_con {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+    .copyright_con {
+        text-align: center;
+        display: block;
+    }
+    .copyright_con p {
+        margin-bottom: 10px;
+    }
+    .copyright_con ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .footer_full_form input {
+        max-width: 439px;
+        width: 63%;
+    }
+    .single_b h1 {
+        font-size: 29px;
+    }
+    .single_b h3 {
+        font-size: 22px;
+    }
+    .menu ul {
+      display: block;
+    }
+    .all_menu {
+        display: block;
+    }
+    .menu li {
+        margin: 10px 0;
+    }
+    .menu_dektop{
+        display: none;
+    }
+    .menu_laptop{
+        display: block;
+    }
+    .menu_button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .menu ul li a {
+        font-size: 14px;
+        padding: 0;
+    }
+    .header_all {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    #menuToggle {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+         -ms-user-select: none;
+             user-select: none;
+    }
+}
+
+@media (max-width:575px){
+    .logo a {
+        font-size: 17px;
+        line-height:20px;
+    }
+    .logo a article {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .banner_text h1 {
+        font-size: 29px;
+        line-height: 35px;
+    }
+    .hero_section_area {
+        padding-top: 113px;
+    }
+    .banner_text ul {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 8px 20px;
+        height: auto;
+        margin: 32px 0;
+    }
+    .banner_text ul li {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        margin: 10px 0;
+
+    }
+    .input p {
+        font-size: 8px;
+        padding: 8px;
+        max-width: 100%;
+        width: 100%;
+    }
+    .single_h_form {
+        margin-bottom: 22px;
+    }
+    .flex_2 {
+        display: block;
+    }
+    .flex_2 p {
+        margin-top: 0;
+        margin: 14px 0;
+    }
+    .banner_all {
+        margin-bottom: 0;
+        padding-bottom: 50px;
+    }
+    .build_area {
+        background: #000;
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+    .section_title h1 {
+        font-size: 28px;
+    }
+    .section_title {
+        margin-bottom: 40px;
+    }
+    .single_b {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0;
+        margin-bottom: 13px;
+    }
+    .footer_form {
+        margin-top: 50px;
+    }
+    .footer_full_form input {
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer_full_form button {
+        margin-left: 0;
+        margin-top: 14px;
+        width: 100%;
+    }
+}
